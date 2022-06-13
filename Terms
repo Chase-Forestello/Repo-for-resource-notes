@@ -64,11 +64,29 @@ Array slicing
 Array splitting
 Array joining
 Map, filter, reduce
-Implementation
-Refactor
-Unit (of code)
-Unit Test
-Test Driven Development, or TDD
+
+Implementation: The code the a developer authors to realize
+the sequence of steps that the
+code runs to solve a problem (called an algorithm).
+
+Refactor: To refactor means to re-write an implementation.
+[Refactoring](https://martinfowler.com/bliki/DefinitionOfRefactoring.html) aims to increase the code quality
+without changing its observable behavior.
+Developers refactor code to increase readability, increase flexibility, add a fix for edge-case bugs, reduce duplication,
+or make the code more accessible
+for yourself and other developers moving forward.
+
+Unit (of code): An individual piece of functionality which is single, whole,
+and complete but which also forms an individual component of a larger or more complex whole.
+
+Unit Test: Unit tests are automated tests that test the accuracy, reliability, and appropriateness of
+the implementation for a unit of functionality. Unit tests compare the expected vs. actual outputs for
+user-defined functions when provided various inputs.
+
+Test Driven Development, or TDD: The practice of writing tests for functionality before writing the implementation of that functionality.
+Rather than authoring tests after the functionality exists, the TDD workflow aims to use the automated tests to provide feedback before and
+as the developer authors their implementation
+
 First class functions
 JavaScript object
 Object property variable assignment shorthand
